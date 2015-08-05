@@ -64,6 +64,7 @@ typedef NS_ENUM(NSUInteger, KGModalCloseButtonType){
 
 // Set the content view controller to display in the modal and whether the modal should animate in
 - (void)showWithContentViewController:(UIViewController *)contentViewController andAnimated:(BOOL)animated;
+- (void)showWithContentViewWithRectAnimated:(UIView *)contentView;
 
 // Hide the modal with animations
 - (void)hide;
