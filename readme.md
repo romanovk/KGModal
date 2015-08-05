@@ -1,3 +1,5 @@
+This fork up version to 1.2.0 and it provides a change that is not contained in 1.1.0 through pod
+
 KGModal is an easy drop in control that allows you to display any view in a modal popup. The modal will automatically scale to fit the content view and center it on screen with nice animations!
 
 ![](https://raw.github.com/kgn/KGModal/master/Screenshot.jpg)
