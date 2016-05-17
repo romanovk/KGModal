@@ -56,6 +56,9 @@ typedef NS_ENUM(NSUInteger, KGModalCloseButtonType){
 // Set the content view to display in the modal and display with animations
 - (void)showWithContentView:(UIView *)contentView;
 
+//Set the content view to display in the modal and display with animations zoom in from point. Hide method zoom out to this point.
+- (void)showWithContentView:(UIView *)contentView fromPoint:(CGPoint)point;
+
 // Set the content view to display in the modal and whether the modal should animate in
 - (void)showWithContentView:(UIView *)contentView andAnimated:(BOOL)animated;
 
@@ -68,6 +71,9 @@ typedef NS_ENUM(NSUInteger, KGModalCloseButtonType){
 
 // Hide the modal with animations
 - (void)hide;
+
+// Hide the modal with animations zoom
+- (void)hideToPoint:(id)sender;
 
 // Hide the modal with animations,
 // run the completion after the modal is hidden
